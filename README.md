@@ -40,5 +40,4 @@ assets resolve correctly on the project Pages URL.
 
 ## 📷 Credits
 
-Duck photo by **Jack Lawrence**, licensed under
-[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+Duck photo from [Unsplash](https://unsplash.com/).

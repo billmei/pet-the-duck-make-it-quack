@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import duckPhoto from "./assets/duck.jpg";
+import duckPhoto from "./assets/duck.jpeg";
 import { playQuack, playMegaQuack, primeAudio } from "./quack.js";
 import "./App.css";
 
@@ -179,7 +179,7 @@ export default function App() {
         <img
           className="duck-img"
           src={duckPhoto}
-          alt="A cheerful rubber duck floating in a puddle"
+          alt="A mallard duck standing in shallow water"
           draggable="false"
         />
 
@@ -219,9 +219,7 @@ export default function App() {
         </span>
       ))}
 
-      <footer className="footer">
-        Made with love &amp; quacks · Duck photo by Jack Lawrence (CC BY 2.0)
-      </footer>
+      <footer className="footer">Made with love &amp; quacks 🦆</footer>
     </div>
   );
 }
