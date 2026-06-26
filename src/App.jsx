@@ -20,7 +20,7 @@ let floaterId = 0;
 
 export default function App() {
   const [quacks, setQuacks] = useState(0);
-  const [best, setBest] = useState(() => Number(localStorage.getItem("duck-best") || 0));
+  const [best, setBest] = useState(() => Number(localStorage.getItem("duck-best")) || 0);
   const [excitement, setExcitement] = useState(0);
   const [floaters, setFloaters] = useState([]);
   const [bubble, setBubble] = useState(null);
@@ -31,7 +31,6 @@ export default function App() {
   const excitementRef = useRef(0);
   const lastPetRef = useRef(0);
   const pettingRef = useRef(false);
-  const seenMilestones = useRef(new Set());
 
   // Excitement gently cools down when you stop petting.
   useEffect(() => {
